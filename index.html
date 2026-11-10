@@ -5,7 +5,7 @@
 		<title>World Database Lookup</title>
 
 		<!-- you can modify this as needed or to your preference -->
-		<link href="world.css" type="text/css" rel="stylesheet" />
+		<link href="world.css" rel="stylesheet" />
 
 		<!-- you write this -->
 		<script src="world.js" defer></script>
@@ -18,10 +18,14 @@
 
 		<main>
 			<div id="controls">
-				<label for="country">Country:</label>
+				<br><br>
+				<label for="country"></label>
 				<input id="country" type="search" name="country" placeholder="Enter country name" />
+
+			<div class = "buttons">
 				<button id="lookup">Lookup</button>
 				<button id="lookupCities">Lookup Cities</button>
+				</div>
 			</div>
 			
 			<div id="result">

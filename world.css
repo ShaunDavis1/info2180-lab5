@@ -1,1 +1,87 @@
 /* Add your own styles */
+
+/* styling for header */
+
+header {
+    background-color: darkslategrey;
+    color:white;
+    padding: 25px;
+    text-align: center;
+}
+
+/*styling for body*/
+
+body {
+    background-color: aliceblue;
+}
+
+/* styling for text bar */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#controls input[type="search"] {
+    width: 400px;
+    max-width: 90%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons #lookup {
+    background-color: green;
+    color:white;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.buttons #lookupCities {
+    background-color: blue;
+    color:white;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 180px;
+}
+
+/* styling for table */
+#result {
+    margin: 20px auto;
+}
+
+#result table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+#result th {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+
+} 
+#result td {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+}
+
+#result tr:nth-child(even) {
+
+    background-color: white;
+}
+
